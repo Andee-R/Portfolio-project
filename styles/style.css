@@ -15,6 +15,13 @@ h4 {
 body {
   font-family: var(--defualt-font-family);
 }
+h2 {
+  font-size: 64px;
+}
+p {
+  font-weight: normal;
+  font-size: 28px;
+}
 
 .hero {
   background: var(--secondary-color);
@@ -45,5 +52,5 @@ body {
   text-decoration: none;
 }
 .site-images {
-  max-width: 300px;
+  max-width: 400px;
 }
