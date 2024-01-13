@@ -16,7 +16,7 @@ body {
   font-family: var(--defualt-font-family);
 }
 h2 {
-  font-size: 64px;
+  font-size: 48px;
 }
 p {
   font-weight: normal;
@@ -51,6 +51,30 @@ p {
   padding: 15px 30px;
   text-decoration: none;
 }
-.site-images {
-  max-width: 400px;
+
+.btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+.project-descriptions {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  h2 {
+    font-size: 44px;
+  }
+  .hero h1 {
+    font-size: 60px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-descriptions {
+    padding: 20px;
+    text-align: center;
+  }
 }
