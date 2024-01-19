@@ -1,9 +1,9 @@
 :root {
-  --accent-color: #b6cdbd;
   --branding-color: #5c715e;
+  --secondary-color: #f2f9f1;
+  --accent-color: #b6cdbd;
   --default-font-family: "Poppins", sans-serif;
   --heading-font-family: "Playfair Display", serif;
-  --secondary-color: #f2f9f1;
 }
 body {
   font-family: var(--default-font-family);
@@ -65,24 +65,30 @@ p {
 .project-descriptions {
   padding: 120px 60px;
 }
-.about-hero {
+.content-container {
   padding: 160px 20px;
 }
-.about-hero-content {
+.content {
   margin: 30px;
 }
-.about-hero h1 {
+.content h1 {
   font-size: 64px;
   line-height: 1.2;
 }
-.about-hero h2 {
+.content h2 {
   font-size: 20px;
   font-family: var(--default-font-family);
 }
-.about-hero p {
+.content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--default-font-family);
+}
+.content p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
+
 .selfie {
   border: 1px solid var(--secondary-color);
   border-radius: 5px;
@@ -107,7 +113,7 @@ p {
   .project-descriptions h2 {
     font-size: 24px;
   }
-  .about-hero {
+  .content-container {
     text-align: center;
     padding: 0;
   }
