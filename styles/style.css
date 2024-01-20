@@ -21,6 +21,7 @@ p {
   font-weight: normal;
   font-size: 28px;
 }
+
 .hero {
   background: var(--secondary-color);
   padding: 180px 20px;
@@ -96,7 +97,38 @@ p {
   padding: 35px;
   width: 350px;
 }
+.brand-logo {
+  max-height: 100px;
+}
+nav {
+  background-color: #faf7f5;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 100px;
+  font-size: 22px;
+  margin-left: 15px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #101d11;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 @media (max-width: 900px) {
+  nav a {
+    font-size: 14px;
+  }
   p {
     font-size: 18px;
   }

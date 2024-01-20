@@ -27,13 +27,27 @@
       crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav>
-      <img src="" alt="" />
+    <nav class="d-flex justify-content-between">
+      <a href="/">
+        <img
+          src="/images/brandLogo.png"
+          alt="brand logo"
+          class="brand-logo d-none d-md-block" />
+        <img src="/images/smLogo.png" class="brand-logo d-block d-md-none" />
+      </a>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Work</li>
-        <li>Contact</li>
+        <li class="active">
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/about.html">About</a>
+        </li>
+        <li>
+          <a href="/work.html">Work</a>
+        </li>
+        <li>
+          <a href="/contact.html">Contact</a>
+        </li>
       </ul>
     </nav>
     <div class="hero">
