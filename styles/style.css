@@ -1,7 +1,7 @@
 :root {
   --branding-color: #5c715e;
   --secondary-color: #f2f9f1;
-  --accent-color: #b6cdbd;
+  --accent-color: #101d11;
   --default-font-family: "Poppins", sans-serif;
   --heading-font-family: "Playfair Display", serif;
 }
@@ -20,6 +20,34 @@ h4 {
 p {
   font-weight: normal;
   font-size: 28px;
+}
+nav {
+  background-color: #faf7f5;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 100px;
+  font-size: 22px;
+  margin-left: 15px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--accent-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+.brand-logo {
+  max-height: 100px;
 }
 
 .hero {
@@ -97,34 +125,23 @@ p {
   padding: 35px;
   width: 350px;
 }
-.brand-logo {
-  max-height: 100px;
-}
-nav {
-  background-color: #faf7f5;
-}
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 100px;
+footer p {
   font-size: 22px;
-  margin-left: 15px;
 }
-nav ul {
-  margin: 0;
-  padding: 0;
+footer .email-link {
+  margin: 30px;
+  font-size: 24px;
+  text-align: center;
 }
-
-nav a {
+footer .email-link a {
+  color: var(--accent-color);
   text-decoration: none;
-  color: #101d11;
   transition: all 100ms ease-in-out;
 }
-
-nav a:hover,
-nav li.active a {
+footer .email-link a:hover {
   color: var(--branding-color);
 }
+
 @media (max-width: 900px) {
   nav a {
     font-size: 14px;
