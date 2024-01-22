@@ -125,13 +125,33 @@ nav li.active a {
   padding: 35px;
   width: 350px;
 }
+
+footer {
+  margin: 60px 0;
+}
+
 footer p {
   font-size: 22px;
 }
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 80px;
+  border-radius: 10px;
+}
+footer .contact-box h4 {
+  font-size: 48px;
+}
+footer .contact-box p {
+  margin: 0;
+  font-size: 18px;
+}
+footer .btn {
+  margin-top: 15px;
+}
+
 footer .email-link {
   margin: 30px;
   font-size: 24px;
-  text-align: center;
 }
 footer .email-link a {
   color: var(--accent-color);
@@ -142,6 +162,20 @@ footer .email-link a:hover {
   color: var(--branding-color);
 }
 
+footer .social-links a {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  color: var(--branding-color);
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 15px;
+}
+
+footer .social-links a:hover {
+  transition: all 100ms ease-in-out;
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+}
 @media (max-width: 900px) {
   nav a {
     font-size: 14px;
@@ -165,5 +199,11 @@ footer .email-link a:hover {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  .contact-box {
+    padding: 20px;
+  }
+  .contact-box h4 {
+    font-size: 26px;
   }
 }
