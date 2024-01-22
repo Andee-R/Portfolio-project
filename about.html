@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About page -Andee Reid Frontend Developer</title>
+    <title>About page -Frontend Developer Andee Reid</title>
+    <meta
+      description="Andee is a frontend developer based out of Glendale Arizona. Currently working to perfect her coding skills by working on SheCode cerfications and monthing projects. " />
 
     <link rel="stylesheet" href="styles/style.css" />
 
@@ -27,6 +29,32 @@
       crossorigin="anonymous"></script>
   </head>
   <body>
+    <nav class="d-flex justify-content-between">
+      <a href="/" title="homepage">
+        <img
+          src="/images/brandLogo.png"
+          alt="personal brand logo"
+          class="brand-logo d-none d-md-block" />
+        <img
+          src="/images/smLogo.png"
+          alt="personal sm-brand-logo"
+          class="brand-logo d-block d-md-none" />
+      </a>
+      <ul>
+        <li>
+          <a href="/" title="Homepage">Home</a>
+        </li>
+        <li class="active">
+          <a href="/about.html" title="About Andee">About</a>
+        </li>
+        <li>
+          <a href="/work.html" title="My works page">Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Andee">Contact</a>
+        </li>
+      </ul>
+    </nav>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -39,16 +67,54 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="/work.html" class="btn-branding">View my work</a>
+            <a href="/work.html" title="My works button" class="btn-branding"
+              >View my work</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
           <img
             src="/images/selfie.png"
             alt="photo of Andee Reid"
+            title="Picture of Andee"
             class="selfie img-fluid shadow" />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">
+            Let's work together to achieve your website goals!
+          </p>
+        </div>
+        <div class="btn d-sm-flex">
+          <a href="/contact.html" class="btn-branding" title="contact button"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+      <div class="email-link d-flex justify-content-center">
+        <a href="mailto:reid.2023pro@gamil.com">reid.2023pro@gmail.com</a>
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a href="https://instagram.com/AndeeReid.codes" target="_blank"
+          ><i class="fa-brands fa-instagram" title="Instagram profile"></i
+        ></a>
+        <a href="https://github.com/Andee-R" target="_blank"
+          ><i class="fa-brands fa-github" title="Github profile"></i
+        ></a>
+      </div>
+      <p class="text-center text-muted">
+        This was coded by Andee Reid and it is
+        <a
+          href="https://github.com/Andee-R/Portfolio-project"
+          target="_blank"
+          title="link"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

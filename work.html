@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Works -Andee Reid Frontend developer</title>
+    <title>My Works -Frontend developer Andee Reid</title>
+    <meta
+      description="Andee is a frontend developer based out of Glendale Arizona. Currently working to perfect her coding skills by working on SheCode cerfications and monthing projects. " />
 
     <link rel="stylesheet" href="styles/style.css" />
 
@@ -27,6 +29,32 @@
       crossorigin="anonymous"></script>
   </head>
   <body>
+    <nav class="d-flex justify-content-between">
+      <a href="/" title="homepage">
+        <img
+          src="/images/brandLogo.png"
+          alt="personal brand logo"
+          class="brand-logo d-none d-md-block" />
+        <img
+          src="/images/smLogo.png"
+          alt="personal sm-brand-logo"
+          class="brand-logo d-block d-md-none" />
+      </a>
+      <ul>
+        <li>
+          <a href="/" title="Homepage">Home</a>
+        </li>
+        <li>
+          <a href="/about.html" title="About Andee">About</a>
+        </li>
+        <li class="active">
+          <a href="/work.html" title="My works page">Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Andee">Contact</a>
+        </li>
+      </ul>
+    </nav>
     <div class="content-container">
       <div class="content">
         <h1 class="text-center mb-4">
@@ -37,6 +65,7 @@
             <img
               src="/images/ghostProject.png"
               alt="DIY ghost project"
+              title="DIY ghost preview"
               class="img-fluid shadow mb-4" />
             <h3 class="text-center">Ghost Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
@@ -45,6 +74,7 @@
             <img
               src="/images/visitScotland.png"
               alt="Scotland"
+              title="Visit Scotland preview"
               class="img-fluid shadow mb-4" />
             <h3 class="text-center">Visit Scotland</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
@@ -53,6 +83,7 @@
             <img
               src="/images/weatherApp.png"
               alt="weather forecast"
+              title="Weather app preview"
               class="img-fluid shadow mb-4" />
             <h3 class="text-center">Weather App</h3>
             <p class="text-center text-muted">
@@ -63,6 +94,7 @@
             <img
               src="/images/placeHolder.png"
               alt="car"
+              title="stock photo of car"
               class="img-fluid shadow mb-4" />
             <h3 class="text-center">Place Holder</h3>
             <p class="text-center text-muted">Built with .......</p>
@@ -70,5 +102,40 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">
+            Let's work together to achieve your website goals!
+          </p>
+        </div>
+        <div class="btn d-sm-flex">
+          <a href="/contact.html" class="btn-branding" title="contact button"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+      <div class="email-link d-flex justify-content-center">
+        <a href="mailto:reid.2023pro@gamil.com">reid.2023pro@gmail.com</a>
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a href="https://instagram.com/AndeeReid.codes" target="_blank"
+          ><i class="fa-brands fa-instagram" title="Instagram profile"></i
+        ></a>
+        <a href="https://github.com/Andee-R" target="_blank"
+          ><i class="fa-brands fa-github" title="Github profile"></i
+        ></a>
+      </div>
+      <p class="text-center text-muted">
+        This was coded by Andee Reid and it is
+        <a
+          href="https://github.com/Andee-R/Portfolio-project"
+          target="_blank"
+          title="link"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

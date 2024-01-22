@@ -52,7 +52,7 @@ nav li.active a {
 
 .hero {
   background: var(--secondary-color);
-  padding: 180px 20px;
+  padding: 80px 20px;
   text-align: center;
 }
 .hero h1 {
@@ -95,7 +95,7 @@ nav li.active a {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content {
   margin: 30px;
@@ -138,7 +138,7 @@ footer .contact-box {
   padding: 30px 80px;
   border-radius: 10px;
 }
-footer .contact-box h4 {
+footer .contact-box h3 {
   font-size: 48px;
 }
 footer .contact-box p {
@@ -203,7 +203,7 @@ footer .social-links a:hover {
   .contact-box {
     padding: 20px;
   }
-  .contact-box h4 {
+  .contact-box h3 {
     font-size: 26px;
   }
 }
